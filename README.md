@@ -4,7 +4,7 @@
 Criação do Projeto utilizando :
 
 
-<p align="center"> ✔️ Visual Studio Code                  ✔️  Mongo DB                        ✔️  Node js 
+<p align="center"> ✔️ Visual Studio Code                  ✔️  Mongo DB(Banco de dados não relacional)                        ✔️  Node js 
   </p>
  <hr>
  
