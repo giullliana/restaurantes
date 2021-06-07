@@ -1,7 +1,16 @@
 const express = require('express');
 
+
 //set up express app
 const app = express();
+
+//inicio das rotas
+app.use('/api',require('./routes/api'));
+
+app.get('/api',function(req,res){
+    console.log('GET request');
+    res.send({name:'Mcdonalds'});
+});
 
 
 
