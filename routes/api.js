@@ -9,7 +9,12 @@ router.get('/restaurantes', function(req,res){
 
 //add um restaurante ao DB
 router.post('/restaurantes', function(req,res){
-    res.send({type: 'POST'});
+    console.log(req.body);
+    res.send({
+        type: 'POST',
+    name:req.body.name,
+    rank:req.body.rank
+});
 });
 
 //atualizar um restaurante no DB
