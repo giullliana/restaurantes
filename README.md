@@ -32,3 +32,13 @@ Criação do Projeto utilizando :
 
    <p align="center"> DELETE </p>
   <p align="center"><a href="https://ibb.co/FbLQY94"><img src="https://i.ibb.co/WW4rzQv/PUT-postman.jpg" alt="DELETE-postman" border="0"></a> </p>
+  
+  
+- Model criado para organização do projeto ;
+- Adicionando Schema ;
+- Criação do Banco de Dados (Via POST no Postman) ;
+- DB em Robo3T :
+  
+    
+    <p align="center"><a href="https://ibb.co/CQMqrdG"><img src="https://i.ibb.co/w4wTvHm/bancode-Dados.jpg" alt="bancode-Dados" border="0"></a> </p>
+  
