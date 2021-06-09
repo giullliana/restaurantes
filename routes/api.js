@@ -1,4 +1,5 @@
 const express = require('express');
+const Restaurantes = require('./models/restaurantes');
 const router = express.Router();
 
 
@@ -9,13 +10,11 @@ router.get('/restaurantes', function(req,res){
 
 //add um restaurante ao DB
 router.post('/restaurantes', function(req,res){
-    console.log(req.body);
-    res.send({
-        type: 'POST',
-    name:req.body.name,
-    rank:req.body.rank
-});
-});
+   Restaurantes.create(req.body).then(function(restaurantes){
+    res.send(restaurantes);
+   });
+  });
+
 
 //atualizar um restaurante no DB
 router.put('/restaurantes/:id', function(req,res){
